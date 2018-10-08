@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4927A69C216B140500879EFD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4927A69B216B140500879EFD /* AppDelegate.swift */; };
+		4927A69E216B140500879EFD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4927A69D216B140500879EFD /* ViewController.swift */; };
+		4927A6A1216B140500879EFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4927A69F216B140500879EFD /* Main.storyboard */; };
+		4927A6A3216B140600879EFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4927A6A2216B140600879EFD /* Assets.xcassets */; };
+		4927A6A6216B140600879EFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4927A6A4216B140600879EFD /* LaunchScreen.storyboard */; };
+		4927A6B1216B140600879EFD /* penghitung_suhuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4927A6B0216B140600879EFD /* penghitung_suhuTests.swift */; };
+		4927A6BC216B140600879EFD /* penghitung_suhuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4927A6BB216B140600879EFD /* penghitung_suhuUITests.swift */; };
+		4927A6CA216B3EE200879EFD /* suhuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4927A6C9216B3EE200879EFD /* suhuViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4927A6AD216B140600879EFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4927A690216B140500879EFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4927A697216B140500879EFD;
+			remoteInfo = "penghitung suhu";
+		};
+		4927A6B8216B140600879EFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4927A690216B140500879EFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4927A697216B140500879EFD;
+			remoteInfo = "penghitung suhu";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4927A698216B140500879EFD /* penghitung suhu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "penghitung suhu.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4927A69B216B140500879EFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4927A69D216B140500879EFD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4927A6A0216B140500879EFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4927A6A2216B140600879EFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4927A6A5216B140600879EFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4927A6A7216B140600879EFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4927A6AC216B140600879EFD /* penghitung suhuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "penghitung suhuTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4927A6B0216B140600879EFD /* penghitung_suhuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = penghitung_suhuTests.swift; sourceTree = "<group>"; };
+		4927A6B2216B140600879EFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4927A6B7216B140600879EFD /* penghitung suhuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "penghitung suhuUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4927A6BB216B140600879EFD /* penghitung_suhuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = penghitung_suhuUITests.swift; sourceTree = "<group>"; };
+		4927A6BD216B140600879EFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4927A6C9216B3EE200879EFD /* suhuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = suhuViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4927A695216B140500879EFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4927A6A9216B140600879EFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4927A6B4216B140600879EFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4927A68F216B140500879EFD = {
+			isa = PBXGroup;
+			children = (
+				4927A69A216B140500879EFD /* penghitung suhu */,
+				4927A6AF216B140600879EFD /* penghitung suhuTests */,
+				4927A6BA216B140600879EFD /* penghitung suhuUITests */,
+				4927A699216B140500879EFD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4927A699216B140500879EFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4927A698216B140500879EFD /* penghitung suhu.app */,
+				4927A6AC216B140600879EFD /* penghitung suhuTests.xctest */,
+				4927A6B7216B140600879EFD /* penghitung suhuUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4927A69A216B140500879EFD /* penghitung suhu */ = {
+			isa = PBXGroup;
+			children = (
+				4927A69B216B140500879EFD /* AppDelegate.swift */,
+				4927A69D216B140500879EFD /* ViewController.swift */,
+				4927A69F216B140500879EFD /* Main.storyboard */,
+				4927A6C9216B3EE200879EFD /* suhuViewController.swift */,
+				4927A6A2216B140600879EFD /* Assets.xcassets */,
+				4927A6A4216B140600879EFD /* LaunchScreen.storyboard */,
+				4927A6A7216B140600879EFD /* Info.plist */,
+			);
+			path = "penghitung suhu";
+			sourceTree = "<group>";
+		};
+		4927A6AF216B140600879EFD /* penghitung suhuTests */ = {
+			isa = PBXGroup;
+			children = (
+				4927A6B0216B140600879EFD /* penghitung_suhuTests.swift */,
+				4927A6B2216B140600879EFD /* Info.plist */,
+			);
+			path = "penghitung suhuTests";
+			sourceTree = "<group>";
+		};
+		4927A6BA216B140600879EFD /* penghitung suhuUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4927A6BB216B140600879EFD /* penghitung_suhuUITests.swift */,
+				4927A6BD216B140600879EFD /* Info.plist */,
+			);
+			path = "penghitung suhuUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4927A697216B140500879EFD /* penghitung suhu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4927A6C0216B140600879EFD /* Build configuration list for PBXNativeTarget "penghitung suhu" */;
+			buildPhases = (
+				4927A694216B140500879EFD /* Sources */,
+				4927A695216B140500879EFD /* Frameworks */,
+				4927A696216B140500879EFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "penghitung suhu";
+			productName = "penghitung suhu";
+			productReference = 4927A698216B140500879EFD /* penghitung suhu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4927A6AB216B140600879EFD /* penghitung suhuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4927A6C3216B140600879EFD /* Build configuration list for PBXNativeTarget "penghitung suhuTests" */;
+			buildPhases = (
+				4927A6A8216B140600879EFD /* Sources */,
+				4927A6A9216B140600879EFD /* Frameworks */,
+				4927A6AA216B140600879EFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4927A6AE216B140600879EFD /* PBXTargetDependency */,
+			);
+			name = "penghitung suhuTests";
+			productName = "penghitung suhuTests";
+			productReference = 4927A6AC216B140600879EFD /* penghitung suhuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4927A6B6216B140600879EFD /* penghitung suhuUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4927A6C6216B140600879EFD /* Build configuration list for PBXNativeTarget "penghitung suhuUITests" */;
+			buildPhases = (
+				4927A6B3216B140600879EFD /* Sources */,
+				4927A6B4216B140600879EFD /* Frameworks */,
+				4927A6B5216B140600879EFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4927A6B9216B140600879EFD /* PBXTargetDependency */,
+			);
+			name = "penghitung suhuUITests";
+			productName = "penghitung suhuUITests";
+			productReference = 4927A6B7216B140600879EFD /* penghitung suhuUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4927A690216B140500879EFD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = habdev;
+				TargetAttributes = {
+					4927A697216B140500879EFD = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					4927A6AB216B140600879EFD = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 4927A697216B140500879EFD;
+					};
+					4927A6B6216B140600879EFD = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 4927A697216B140500879EFD;
+					};
+				};
+			};
+			buildConfigurationList = 4927A693216B140500879EFD /* Build configuration list for PBXProject "penghitung suhu" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4927A68F216B140500879EFD;
+			productRefGroup = 4927A699216B140500879EFD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4927A697216B140500879EFD /* penghitung suhu */,
+				4927A6AB216B140600879EFD /* penghitung suhuTests */,
+				4927A6B6216B140600879EFD /* penghitung suhuUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4927A696216B140500879EFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4927A6A6216B140600879EFD /* LaunchScreen.storyboard in Resources */,
+				4927A6A3216B140600879EFD /* Assets.xcassets in Resources */,
+				4927A6A1216B140500879EFD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4927A6AA216B140600879EFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4927A6B5216B140600879EFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4927A694216B140500879EFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4927A69E216B140500879EFD /* ViewController.swift in Sources */,
+				4927A69C216B140500879EFD /* AppDelegate.swift in Sources */,
+				4927A6CA216B3EE200879EFD /* suhuViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4927A6A8216B140600879EFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4927A6B1216B140600879EFD /* penghitung_suhuTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4927A6B3216B140600879EFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4927A6BC216B140600879EFD /* penghitung_suhuUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4927A6AE216B140600879EFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4927A697216B140500879EFD /* penghitung suhu */;
+			targetProxy = 4927A6AD216B140600879EFD /* PBXContainerItemProxy */;
+		};
+		4927A6B9216B140600879EFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4927A697216B140500879EFD /* penghitung suhu */;
+			targetProxy = 4927A6B8216B140600879EFD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4927A69F216B140500879EFD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4927A6A0216B140500879EFD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4927A6A4216B140600879EFD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4927A6A5216B140600879EFD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4927A6BE216B140600879EFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4927A6BF216B140600879EFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4927A6C1216B140600879EFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "penghitung suhu/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "devex.penghitung-suhu";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4927A6C2216B140600879EFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "penghitung suhu/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "devex.penghitung-suhu";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4927A6C4216B140600879EFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "penghitung suhuTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "devex.penghitung-suhuTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/penghitung suhu.app/penghitung suhu";
+			};
+			name = Debug;
+		};
+		4927A6C5216B140600879EFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "penghitung suhuTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "devex.penghitung-suhuTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/penghitung suhu.app/penghitung suhu";
+			};
+			name = Release;
+		};
+		4927A6C7216B140600879EFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "penghitung suhuUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "devex.penghitung-suhuUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "penghitung suhu";
+			};
+			name = Debug;
+		};
+		4927A6C8216B140600879EFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "penghitung suhuUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "devex.penghitung-suhuUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "penghitung suhu";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4927A693216B140500879EFD /* Build configuration list for PBXProject "penghitung suhu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4927A6BE216B140600879EFD /* Debug */,
+				4927A6BF216B140600879EFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4927A6C0216B140600879EFD /* Build configuration list for PBXNativeTarget "penghitung suhu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4927A6C1216B140600879EFD /* Debug */,
+				4927A6C2216B140600879EFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4927A6C3216B140600879EFD /* Build configuration list for PBXNativeTarget "penghitung suhuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4927A6C4216B140600879EFD /* Debug */,
+				4927A6C5216B140600879EFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4927A6C6216B140600879EFD /* Build configuration list for PBXNativeTarget "penghitung suhuUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4927A6C7216B140600879EFD /* Debug */,
+				4927A6C8216B140600879EFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4927A690216B140500879EFD /* Project object */;
+}
